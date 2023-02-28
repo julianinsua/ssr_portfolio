@@ -1,0 +1,24 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "semi": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "prettier/prettier": "error",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+    "global-require": "off",
+    "react/jsx-wrap-multilines": "off",
+    "import/no-cycle": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "warn"
+  },
+  "plugins": ["prettier"]
+}
